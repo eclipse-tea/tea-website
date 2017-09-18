@@ -24,7 +24,8 @@
 
 
   <body>
-<!--#include virtual="/tea/header.html"  -->
+<?php include '/tea/header.php'; ?>
+
 <img style="position: fixed; top: 0; right: 0; margin-top: 65px; z-index:1000; border: 0; " src="/tea/images/incubation.png"/>
 
 <div id="page">
