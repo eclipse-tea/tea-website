@@ -24,7 +24,10 @@
 
 
   <body>
-<?php include '/tea/header.php'; ?>
+<?php 
+include $_SERVER['DOCUMENT_ROOT'] . '/tea/header.php';
+print $_SERVER['DOCUMENT_ROOT'];
+?>
 
 <img style="position: fixed; top: 0; right: 0; margin-top: 65px; z-index:1000; border: 0; " src="/tea/images/incubation.png"/>
 
