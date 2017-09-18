@@ -1,56 +1,9 @@
 <!DOCTYPE html>
 <html>
+<?php include $_SERVER['DOCUMENT_ROOT'] . '/tea/head.php'; ?>
 
-  <head>
-	<meta charset="UTF-8">
-	<title>Eclipse TEA</title>
-	
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta name="description"
-		content="The website of Eclipse TEA, an open-source framework for development of IDE extensions that can be run from everywhere">
-	<meta name="author" content="Markus Duft">
-	
-	<link rel="shortcut icon" href="/tea/images/favicon.png">
-	
-	<link href="/tea/css/bootstrap.css" rel="stylesheet" type='text/css'>
-	<link href="/tea/css/bootstrap-responsive.css" rel="stylesheet" type='text/css'>
-	<link href="/tea/css/shield-responsive.css" rel="stylesheet" type='text/css'>
-	<link href='/tea/css/fonts.css' rel='stylesheet' type='text/css'>
-	<link href="/tea/css/prettyPhoto.css" rel="stylesheet" media="screen" type='text/css'>
-	<link href="/tea/css/prettify.css" type="text/css" rel="stylesheet"/>
-	<link href="/tea/css/style.css" rel="stylesheet" type='text/css'>
-	<link href="/tea/css/coverflow.css" rel="stylesheet" type='text/css'>
-</head>
-
-
-  <body>
-    <header class="site-header">
-
-  <!-- Navbar -->
-  <div class="navbar navbar-fixed-top">
-    <div class="navbar-inner">
-      <div class="container">
-        <a class="btn btn-navbar" data-toggle="collapse"
-          data-target=".nav-collapse"> <span class="icon-bar"></span> <span
-          class="icon-bar"></span> <span class="icon-bar"></span>
-        </a> <a class="brand" href="/tea/index.html"></a>
-        <div class="nav-collapse collapse" style="height: 0px;">
-          <ul class="nav">
-            <li ><a href="/tea/download.html">Download</a></li>
-            <li ><a href="/tea/documentation/index.html">Documentation</a></li>
-            <li ><a href="https://www.eclipse.org/forums/index.php/f/370/" target="_blank">Forums</a></li>
-            <li ><a href="https://bugs.eclipse.org/bugs/buglist.cgi?product=Tea" target="_blank">Bug Tracker</a></li>
-          </ul>
-        </div>
-        <!--/.nav-collapse -->
-      </div>
-    </div>
-  </div>
-  <!-- Navbar End -->
-
-</header>
-
-<img style="position: fixed; top: 0; right: 0; margin-top: 65px; z-index:1000; border: 0; " src="images/incubation.png"/>
+<body>
+<?php include $_SERVER['DOCUMENT_ROOT'] . '/tea/nav.php'; ?>
 
 <!--Container-->
 <div id="header_wrapper">
@@ -170,64 +123,7 @@
   </div>
 </div>
 
-    <footer class="site-footer">
-  <div id="extra">
-    <div class="inner">
-      <div class="container">
-        <div class="row">
-          <div class="span12">
-            <h3 class="footer-links-header">Quick Links</h3>
-            <ul class="footer-links clearfix">
-              <li><a href="http://www.eclipse.org/legal/privacy.php">Privacy Policy</a></li>
-              <li><a href="http://www.eclipse.org/legal/termsofuse.php">Terms of Use</a></li>
-              <li><a href="http://www.eclipse.org/legal/copyright.php">Copyright Agent</a></li>
-              <li><a href="http://www.eclipse.org/legal/">Legal</a></li>
-            </ul>
-            <ul class="footer-links clearfix">
-              <li><a href="http://www.eclipse.org">Eclipse Home</a></li>
-              <li><a href="http://marketplace.eclipse.org/">Market Place</a></li>
-              <li><a href="http://live.eclipse.org/">Eclipse Live</a></li>
-              <li><a href="http://www.planeteclipse.org/">Eclipse Planet</a></li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  
-  <script src="/tea/js/jquery-1.11.3.min.js"></script>
-  <script src="/tea/js/bootstrap.min.js"></script>
-  <script src="/tea/js/jquery.easing.1.3.js" type="text/javascript"></script>
-  <script src="/tea/js/jquery.prettyPhoto.js" type="text/javascript"></script>
-  <script src="/tea/js/twitter.js" type="text/javascript"></script>
-  <script src="/tea/js/prettify.js" type="text/javascript"></script>
-  <script src="/tea/js/lang-xtend.js" type="text/javascript"></script>
-  <script src="/tea/js/lang-common.js" type="text/javascript"></script>
-  <script src="/tea/js/custom.js" type="text/javascript"></script>
-  <script src="/tea/js/coverflow.min.js" type="text/javascript"></script>
-  <script>
-      $(function() {
-        $('#coverflow').coverflow({
-          active : 1,
-          visibleAside: 2,
-          overlap : 0.5,
-          scale : 0.9,
-          angle : 20,
-          trigger : {
-            "itemfocus" : true,
-            "swipe" : true,
-            "mousewheel" : false
-          }
-        });
-        $('#coverflow :hidden').toggle();
-        $(window).resize(function() {
-          $('#coverflow').coverflow();
-        });
-      });
-
-  </script>
-</footer>
-
-  </body>
+<?php include $_SERVER['DOCUMENT_ROOT'] . '/tea/footer.php'; ?>
+</body>
 
 </html>
