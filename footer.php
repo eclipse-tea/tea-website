@@ -29,7 +29,6 @@
   <script src="/tea/js/jquery.prettyPhoto.js" type="text/javascript"></script>
   <script src="/tea/js/twitter.js" type="text/javascript"></script>
   <script src="/tea/js/prettify.js" type="text/javascript"></script>
-  <script src="/tea/js/lang-xtend.js" type="text/javascript"></script>
   <script src="/tea/js/lang-common.js" type="text/javascript"></script>
   <script src="/tea/js/custom.js" type="text/javascript"></script>
   <script src="/tea/js/coverflow.min.js" type="text/javascript"></script>

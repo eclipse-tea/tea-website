@@ -10,7 +10,13 @@
         <div class="nav-collapse collapse" style="height: 0px;">
           <ul class="nav">
             <li ><a href="/tea/download.php">Download</a></li>
-            <li ><a href="/tea/documentation/index.php">Documentation</a></li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="#">Documentation<span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="/tea/documentation/index.php">Overview</a></li>
+                <li><a href="/tea/documentation/samples/getting-started.php">Getting Started</a></li>
+              </ul>
+            </li>
             <li ><a href="https://www.eclipse.org/forums/index.php/f/370/" target="_blank">Forums</a></li>
             <li ><a href="https://bugs.eclipse.org/bugs/buglist.cgi?product=Tea" target="_blank">Bug Tracker</a></li>
           </ul>
