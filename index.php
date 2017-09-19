@@ -13,7 +13,7 @@
         Task automation made easy!
       </h2>
       <p>TEA is a set of extensions for the Eclipse IDE with the primary goal to ease extension and automation of the IDE as well as headless environments.
-      A great deal of TEA deals with making it possible to execute the very same actions (e.g. compiling a project) from the IDE as well as headlessly without any additional configuration or setup effort. 
+      A great portion of TEA deals with making it possible to execute the very same actions (e.g. compiling a project) from the IDE as well as headlessly without any additional configuration or setup effort. 
       Along with the core components of TEA itself, an extensive library of prebuilt tasks and actions comes along in the package.
         <br/><i><a href="#why-tea">Learn more...</a></i></p>
     </div>
@@ -27,8 +27,8 @@
       </div>
     </div>
     <div class="cta-section">
-      <a href="/tea/download.html" style="margin:10px;" class="has-popover btn btn-primary btn-large pull_right">Download</a>
-      <!-- <a href="/tea/documentation/index.html" style="margin:10px;" class="has-popover btn btn-success btn-large pull_right">Documentation</a> -->
+      <a href="/tea/download.php" style="margin:10px;" class="has-popover btn btn-primary btn-large pull_right">Download</a>
+      <a href="/tea/documentation/index.php" style="margin:10px;" class="has-popover btn btn-success btn-large pull_right">Documentation</a>
     </div>
   </div>
 </div>
@@ -51,7 +51,7 @@
       <div class="span4">
         <h4><img src="/tea/images/favicon.png"/>
          High Quality</h4>
-        <p>Although partially rewritten for the open source version, the basis of TEA has been in development for nearly ten years, and is used on hundreds of developer machines every day.</p>
+        <p>Although partially rewritten for the open source version, the basis of TEA has been in development since seven years, and is used on hundreds of developer machines every day.</p>
       </div>
       <div class="span4">
         <h4><img src="/tea/images/favicon.png"/>
