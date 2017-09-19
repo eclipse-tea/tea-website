@@ -160,7 +160,7 @@
 					</li>
 					<li>Progress Estimation
 						<ul>
-							<li>Service that automatically estimated the progress of <em>Task</em>s based on historical execution time data. If available, this
+							<li>Service that automatically estimates the progress of <em>Task</em>s based on historical execution time data. If available, this
 								is the default for all <em>Task</em>s, and must be explicitly overruled - see <em>TEA Core</em></li>
 						</ul>
 					</li>
