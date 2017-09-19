@@ -27,9 +27,9 @@
 		<div class="row">
 			<div class="span9">
 				<p>
-					TEA is built up of various building blocks depending on each other. The image shows a layer model of the TEA architecture. These are the components (more thorough description below).
+					TEA is built up of various building blocks depending on each other. The image shows a layer model of the TEA architecture. These are the components (more thorough description below):
 					<ul>
-						<li><em>TEA Core</em>: The core components of TEAs task execution engine. Everything in here is independent of any UI components.
+						<li><em>TEA Core</em>: The core components of TEAs task execution engine. Everything in here is independent of any UI component.
 							Although a basic headless application is included, the actual product for headless execution (which also allows to access UI bundles
 							through the <em>headless presentation engine</em>) is included in <em>TEA Core UI</em>.</li>
 						<li><em>TEA Core UI</em>: Contains integration into the Eclipse IDE (UI parts) as well as the headless execution product.</li>
@@ -83,8 +83,8 @@
 					</li>
 					<li>Configuration
 						<ul>
-							<li><code class="prettyprint">org.eclipse.tea.core.services.TaskingConfigurationExtension</code>: Service interface to be implemente by all configuration extensions. A configuration extension
-								is a POJO that are made available for injection with all annotated fields automatically prefilled from either a <em>headless.properties</em> file or the Eclipse preferences of the used
+							<li><code class="prettyprint">org.eclipse.tea.core.services.TaskingConfigurationExtension</code>: Service interface to be implemented by all configuration extensions. A configuration extension
+								is a POJO that is available for injection with all annotated fields automatically prefilled from either a <em>headless.properties</em> file or the Eclipse preferences of the used
 								Eclipse (<em>headless.properties</em> has precedence if present).</li>
 						</ul>
 					</li>
