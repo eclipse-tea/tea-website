@@ -12,7 +12,7 @@
       <h2>
         Task automation made easy!
       </h2>
-      <p>TEA is a set of extensions for the Eclipse IDE with the primary goal to automate and execute tasks in a way, so they can be executed both in the IDE as well as in headless environments.
+      <p>TEA is a set of extensions for the Eclipse IDE with the primary goal to automate tasks in a way, so they can be executed both in the IDE as well as in headless environments.
       A great portion of TEA deals with making it possible to execute the very same actions (e.g. compiling a project) from the IDE as well as headlessly without any additional configuration or setup effort. 
       Along with the core components of TEA itself, an extensive library of prebuilt tasks and actions comes along in the package.
         <br/><i><a href="#why-tea">Learn more...</a></i></p>
