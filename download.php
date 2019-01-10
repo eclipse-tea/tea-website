@@ -11,7 +11,7 @@
 			<div class="span12">
 				<h2>Download Options</h2>
 				<p>
-		Currently there there are only snapshot builds of the upcoming 1.0.0 release available.
+		You can choose to download from either nightly builds (bleeding edge) or release update sites.
 				</p>
 			</div>
 		</div>
@@ -19,8 +19,10 @@
 			<div class="span12">
 				<h2>Eclipse Updatesites</h2>
 				<p>These sites can be used to install the TEA features into a running Eclipse. Currently no site is available (yet).</p>
-				<p><a href="#" class="has-popover btn btn-primary btn-medium disabled">Releases (right click &amp; copy)</a></p>
-				<p><a href="http://download.eclipse.org/tea/nightly" class="has-popover btn btn-primary btn-medium">Nightly Builds (right click &amp; copy)</a></p>
+				<p><a href="http://download.eclipse.org/tea/nightly" class="has-popover btn btn-secondary btn-medium">Nightly Builds (right click &amp; copy)</a></p>
+				<p>
+					<a href="http://download.eclipse.org/tea/1.0.0-rc1" class="has-popover btn btn-primary btn-medium">v1.0.0-rc1</a>
+				</p>
 				<h3>Installation Instructions</h3>
 				<ul>
 					<li>Choose <e>Help -&gt; Install New Software...</e> from the menu bar and <e>Add...</e>.</li>
