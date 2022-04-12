@@ -24,6 +24,9 @@
 					<a href="http://download.eclipse.org/tea/1.0.0-rc1" class="has-popover btn btn-medium">v1.0.0-rc1</a>
 					<a href="http://download.eclipse.org/tea/1.0.0" class="has-popover btn btn-primary btn-medium">v1.0.0</a>
 				</p>
+                <p>
+					<a href="http://download.eclipse.org/tea/1.2.0" class="has-popover btn btn-primary btn-medium">v1.2.0</a>
+                </p>
 				<h3>Installation Instructions</h3>
 				<ul>
 					<li>Choose <e>Help -&gt; Install New Software...</e> from the menu bar and <e>Add...</e>.</li>
