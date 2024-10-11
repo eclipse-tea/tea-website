@@ -197,7 +197,7 @@ table tr:hover td {
   display: none;
   text-indent: -9999px;
   outline: hidden;
-  background: url('/tea/images/icon_top.png') no-repeat;
+  background: url('../images/icon_top.png') no-repeat;
 }
 
 /* table end */
@@ -229,7 +229,7 @@ table tr:hover td {
 }
 
 .row_color {
-	background: url('/tea/images/div-grey-top.png') no-repeat center top #f8f8f8;
+	background: url('../images/div-grey-top.png') no-repeat center top #f8f8f8;
 	bspwidth: 100%;
 	border-bottom: 1px solid #e2e2e2;
 }
@@ -257,7 +257,7 @@ table tr:hover td {
 	margin-top: 40px;
 	margin-left: 0px;
 	/* Attribution: http://freedesignfile.com/331535-creative-gear-wheel-and-circuit-board-background-vector-02/creative-gear-wheel-and-circuit-board-background-vector-02/ */
-	background: url('/tea/images/gears.png');
+	background: url('../images/gears.png');
 	background-size:  cover;
 }
 
@@ -866,7 +866,7 @@ UNUSED.btn-the-bizzniss-4.active,UNUSED.btn-the-bizzniss-4:active {
 }
 
 #extra {
-	background: url('/tea/images/bg-footer.png') #444;
+	background: url('../images/bg-footer.png') #444;
 }
 
 #extra .inner {
@@ -1076,13 +1076,13 @@ UNUSED.btn-the-bizzniss-4.active,UNUSED.btn-the-bizzniss-4:active {
 	font-weight: 600;
 	line-height: 600px;
 	color: #333;
-	background: url('/tea/images/tea-full40.png') no-repeat 0 0px;
+	background: url('../images/tea-full40.png') no-repeat 0 0px;
 	background-size: 161px;
 	background-position: center;
 }
 
 .intro-reference {
-	background: url('/tea/images/bg-footer.png');
+	background: url('../images/bg-footer.png');
 	padding-top: 10px;
 	color: #fff;
 	text-align: center;

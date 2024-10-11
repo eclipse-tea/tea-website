@@ -6,15 +6,15 @@
         <a class="btn btn-navbar" data-toggle="collapse"
           data-target=".nav-collapse"> <span class="icon-bar"></span> <span
           class="icon-bar"></span> <span class="icon-bar"></span>
-        </a> <a class="brand" href="/tea/index.php"></a>
+        </a> <a class="brand" href="index.html"></a>
         <div class="nav-collapse collapse" style="height: 0px;">
           <ul class="nav">
-            <li ><a href="/tea/download.php">Download</a></li>
+            <li ><a href="download.html">Download</a></li>
             <li class="dropdown">
               <a class="dropdown-toggle" data-toggle="dropdown" href="#">Documentation<span class="caret"></span></a>
               <ul class="dropdown-menu">
-                <li><a href="/tea/documentation/index.php">Overview</a></li>
-                <li><a href="/tea/documentation/samples/getting-started.php">Getting Started</a></li>
+                <li><a href="overview.html">Overview</a></li>
+                <li><a href="getting-started.html">Getting Started</a></li>
               </ul>
             </li>
             <li ><a href="https://www.eclipse.org/forums/index.php/f/370/" target="_blank">Forums</a></li>
@@ -27,4 +27,4 @@
   </div>
   <!-- Navbar End -->
 </header>
-<img style="position: fixed; top: 0; right: 0; margin-top: 65px; z-index:1000; border: 0; " src="/tea/images/incubation.png"/>
+<img style="position: fixed; top: 0; right: 0; margin-top: 65px; z-index:1000; border: 0; " src="images/incubation.png"/>
