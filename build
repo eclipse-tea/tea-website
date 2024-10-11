@@ -1,0 +1,10 @@
+#!/bin/bash
+
+cd "$(dirname "$0")";
+rm ./*.html;
+
+cd src;
+for file in  ./*.php
+do
+  php $file > "../${file/.php/.html}";
+done

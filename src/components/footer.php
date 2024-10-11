@@ -23,14 +23,14 @@
     </div>
   </div>
   
-  <script src="/tea/js/jquery-1.11.3.min.js"></script>
-  <script src="/tea/js/bootstrap.min.js"></script>
-  <script src="/tea/js/jquery.easing.1.3.js" type="text/javascript"></script>
-  <script src="/tea/js/jquery.prettyPhoto.js" type="text/javascript"></script>
-  <script src="/tea/js/prettify.js" type="text/javascript"></script>
-  <script src="/tea/js/lang-common.js" type="text/javascript"></script>
-  <script src="/tea/js/custom.js" type="text/javascript"></script>
-  <script src="/tea/js/coverflow.min.js" type="text/javascript"></script>
+  <script src="js/jquery-1.11.3.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery.easing.1.3.js" type="text/javascript"></script>
+  <script src="js/jquery.prettyPhoto.js" type="text/javascript"></script>
+  <script src="js/prettify.js" type="text/javascript"></script>
+  <script src="js/lang-common.js" type="text/javascript"></script>
+  <script src="js/custom.js" type="text/javascript"></script>
+  <script src="js/coverflow.min.js" type="text/javascript"></script>
   <script>
       $(function() {
         $('#coverflow').coverflow({

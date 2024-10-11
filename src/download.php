@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html>
-<?php include $_SERVER['DOCUMENT_ROOT'] . '/tea/head.php'; ?>
+<?php include 'components/head.php'; ?>
 
 <body>
-<?php include $_SERVER['DOCUMENT_ROOT'] . '/tea/nav.php'; ?>
+<?php include 'components/nav.php'; ?>
 
 <div id="page">
 	<div class="container">
@@ -53,7 +53,8 @@
 	</div>
 </div>
 
-<?php include $_SERVER['DOCUMENT_ROOT'] . '/tea/footer.php'; ?>
+<?php include 'components/footer.php'; ?>
 </body>
 
 </html>
+
